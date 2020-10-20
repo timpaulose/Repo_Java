@@ -48,7 +48,7 @@ public class CodeTest {
         int limit = 70;
         int numOfPoints = (speed - limit) / 5;
 
-        if (numOfPoints == 0) {
+        if (numOfPoints <= 0) {
             System.out.println("Thank you for driving within the speed limit.");
         } else if (numOfPoints > 12) {
             System.out.println(numOfPoints + " points (Your License is suspended)");
