@@ -16,7 +16,7 @@ public class CodeTest_Main {
         int[] arrOriginal = {1, -2, 7, 6, 4, -6, 3, 5, 89, 2};
         System.out.println(c1.missingPosInteger(arrOriginal));
 
-        c1.ticketSystem(70);
+        c1.ticketSystem(60);
     }
 
 
